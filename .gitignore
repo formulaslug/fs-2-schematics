@@ -1,0 +1,14 @@
+*bak
+*cache*
+*.DS_Store
+*.bck
+*-rescue.*
+*-cache.*
+*.drl
+*.gbr
+*.zip
+*.rules
+*.ses
+*.dsn
+*.net
+
