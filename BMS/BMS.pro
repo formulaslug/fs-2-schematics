@@ -12,9 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=/Users/dukeloke/git/fs-1-schematics/symbols
-LibName2=/Users/dukeloke/git/fs-1-schematics/arduino
-LibName3=/Users/dukeloke/git/fs-1-schematics/FS FINAL
 [pcbnew]
 version=1
 PageLayoutDescrFile=
