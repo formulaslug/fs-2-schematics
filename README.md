@@ -7,16 +7,11 @@
   <p align="center">
     This is the electrical schematics repository for the FS-2 racecar.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/formulaslug/fs-2-schematics/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/formulaslug/fs-2-schematics/issues">Request Feature</a>
   </p>
 </p>
-
-
-## Quick Start
-
-In order for KiCAD to find the custom libraries, you must set the `FS_2_SCHEMATICS` path to the location of this repository.
 
 
 ## Getting started
