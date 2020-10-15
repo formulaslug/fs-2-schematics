@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -55,28 +55,6 @@ F 2 "Connectors_Molex:Molex_NanoFit_1x04x2.50mm_Angled" H 750 1600 50  0001 C CN
 F 3 "" H 750 1600 50  0001 C CNN
 	1    750  1600
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Speaker LS2
-U 1 1 5ABC577A
-P 8050 5650
-F 0 "LS2" H 8100 5875 50  0000 R CNN
-F 1 "Speaker" H 8100 5800 50  0000 R CNN
-F 2 "FSFootprints:RTDS_H" H 8050 5450 50  0001 C CNN
-F 3 "" H 8040 5600 50  0001 C CNN
-	1    8050 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Speaker LS1
-U 1 1 5ABC5A59
-P 8050 5150
-F 0 "LS1" H 8100 5375 50  0000 R CNN
-F 1 "Speaker" H 8100 5300 50  0000 R CNN
-F 2 "FSFootprints:RTDS_H" H 8050 4950 50  0001 C CNN
-F 3 "" H 8040 5100 50  0001 C CNN
-	1    8050 5150
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R21
@@ -375,37 +353,6 @@ $EndComp
 Text GLabel 6800 1900 0    60   Input ~ 0
 SIG_TSAL
 Wire Wire Line
-	7850 5750 7650 5750
-Wire Wire Line
-	7850 5250 7650 5250
-Text GLabel 7050 6050 0    60   Input ~ 0
-SIG_RTDS
-Wire Wire Line
-	7650 5250 7650 5750
-Wire Wire Line
-	7650 5750 7650 5850
-Connection ~ 7650 5750
-$Comp
-L power:+12V #PWR01
-U 1 1 5C4F3A91
-P 7750 5050
-F 0 "#PWR01" H 7750 4900 50  0001 C CNN
-F 1 "+12V" H 7765 5223 50  0000 C CNN
-F 2 "" H 7750 5050 50  0001 C CNN
-F 3 "" H 7750 5050 50  0001 C CNN
-	1    7750 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7750 5050 7750 5150
-Wire Wire Line
-	7750 5150 7850 5150
-Wire Wire Line
-	7750 5150 7750 5650
-Wire Wire Line
-	7750 5650 7850 5650
-Connection ~ 7750 5150
-Wire Wire Line
 	4650 1700 5000 1700
 Connection ~ 5000 1700
 $Comp
@@ -446,66 +393,6 @@ F 3 "" H 7100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7100 1900
-$Comp
-L Device:Q_NMOS_GDS Q1
-U 1 1 5C50520E
-P 7550 6050
-F 0 "Q1" H 7755 6096 50  0000 L CNN
-F 1 "TSM320N03CX" H 7755 6005 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 7750 6150 50  0001 C CNN
-F 3 "https://www.taiwansemi.com/products/datasheet/TSM320N03CX_B1607.pdf" H 7550 6050 50  0001 C CNN
-	1    7550 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 5C505214
-P 7650 6250
-F 0 "#PWR010" H 7650 6000 50  0001 C CNN
-F 1 "GND" H 7655 6077 50  0000 C CNN
-F 2 "" H 7650 6250 50  0001 C CNN
-F 3 "" H 7650 6250 50  0001 C CNN
-	1    7650 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R4
-U 1 1 5C50521A
-P 7150 6050
-F 0 "R4" H 7220 6096 50  0000 L CNN
-F 1 "1k" H 7220 6005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7080 6050 50  0001 C CNN
-F 3 "~" H 7150 6050 50  0001 C CNN
-	1    7150 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5C505220
-P 7350 6250
-F 0 "R6" H 7420 6296 50  0000 L CNN
-F 1 "100k" H 7420 6205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7280 6250 50  0001 C CNN
-F 3 "~" H 7350 6250 50  0001 C CNN
-	1    7350 6250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	7250 6050 7350 6050
-Wire Wire Line
-	7350 6050 7350 6150
-$Comp
-L power:GND #PWR012
-U 1 1 5C505228
-P 7350 6350
-F 0 "#PWR012" H 7350 6100 50  0001 C CNN
-F 1 "GND" H 7355 6177 50  0000 C CNN
-F 2 "" H 7350 6350 50  0001 C CNN
-F 3 "" H 7350 6350 50  0001 C CNN
-	1    7350 6350
-	1    0    0    -1  
-$EndComp
-Connection ~ 7350 6050
 Wire Wire Line
 	5450 5050 5550 5050
 Wire Wire Line
