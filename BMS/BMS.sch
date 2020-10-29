@@ -524,8 +524,6 @@ Wire Wire Line
 	4700 1900 4700 1350
 Wire Wire Line
 	4900 1900 4700 1900
-Wire Wire Line
-	2400 2600 2400 2750
 Text Notes 4150 5800 0    50   ~ 0
 Bottom filtering not caught by BalanceSenseBlock
 $Comp
@@ -558,14 +556,6 @@ B7
 Wire Wire Line
 	2400 2750 2550 2750
 Connection ~ 2400 2750
-Wire Wire Line
-	1400 1350 1400 3400
-Wire Wire Line
-	1300 1450 1300 4050
-Wire Wire Line
-	1200 1550 1200 4700
-Wire Wire Line
-	1100 1650 1100 5350
 Wire Wire Line
 	4200 3000 4200 3200
 Wire Wire Line
@@ -603,8 +593,6 @@ F 3 "~" H 4650 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 5650 5000 5650
-Wire Wire Line
-	1500 2750 2400 2750
 Wire Wire Line
 	3200 2000 3350 2000
 Wire Wire Line
@@ -659,15 +647,9 @@ Wire Wire Line
 Wire Wire Line
 	4650 5350 4900 5350
 Wire Wire Line
-	2400 5350 1100 5350
-Connection ~ 2400 5350
-Wire Wire Line
 	2400 5350 2400 5650
 Wire Wire Line
 	2550 5350 2400 5350
-Wire Wire Line
-	2400 4700 1200 4700
-Connection ~ 2400 4700
 Wire Wire Line
 	2400 5150 2400 4700
 Wire Wire Line
@@ -684,19 +666,11 @@ F5 "B#" I L 2550 5350 50
 F6 "B#+1" I L 2550 5150 50 
 $EndSheet
 Wire Wire Line
-	2550 4700 2400 4700
-Wire Wire Line
-	2400 4050 1300 4050
-Connection ~ 2400 4050
-Wire Wire Line
 	2400 4500 2400 4050
 Wire Wire Line
 	2550 4500 2400 4500
 Wire Wire Line
 	2550 4050 2400 4050
-Wire Wire Line
-	2400 3400 1400 3400
-Connection ~ 2400 3400
 Wire Wire Line
 	2400 3850 2550 3850
 Wire Wire Line
@@ -739,9 +713,6 @@ F5 "B#" I L 2550 3400 50
 F6 "B#+1" I L 2550 3200 50 
 $EndSheet
 Wire Wire Line
-	2400 2100 1600 2100
-Connection ~ 2400 2100
-Wire Wire Line
 	2400 2550 2400 2100
 Wire Wire Line
 	2550 2550 2400 2550
@@ -756,8 +727,6 @@ F4 "C#" O R 3200 2750 50
 F5 "B#" I L 2550 2750 50 
 F6 "B#+1" I L 2550 2550 50 
 $EndSheet
-Wire Wire Line
-	1600 1150 1600 2100
 Wire Wire Line
 	2550 2100 2400 2100
 Wire Wire Line
@@ -783,13 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 1250 3200 1250
 Wire Wire Line
-	1700 1450 2400 1450
-Wire Wire Line
 	2400 1250 2550 1250
-Wire Wire Line
-	1700 1050 1700 1450
-Wire Wire Line
-	2400 950  2400 1250
 $Sheet
 S 2550 1150 650  400 
 U 5F7BC591
@@ -1050,27 +1013,6 @@ Wire Wire Line
 	5000 3900 5100 3900
 Wire Wire Line
 	4800 2000 5100 2000
-Wire Wire Line
-	2400 950  2400 750 
-Wire Wire Line
-	1000 1650 1100 1650
-Wire Wire Line
-	1000 1550 1200 1550
-Wire Wire Line
-	1300 1450 1000 1450
-Wire Wire Line
-	1000 1350 1400 1350
-Wire Wire Line
-	1500 1250 1500 2750
-Wire Wire Line
-	1000 1250 1500 1250
-Wire Wire Line
-	1000 1150 1600 1150
-Wire Wire Line
-	1000 1050 1700 1050
-Wire Wire Line
-	1000 950  2400 950 
-Connection ~ 2400 950 
 NoConn ~ 5100 2800
 NoConn ~ 5100 2600
 NoConn ~ 5100 1800
@@ -1162,4 +1104,164 @@ Wire Wire Line
 Wire Wire Line
 	2400 750  4000 750 
 Connection ~ 4000 750 
+$Comp
+L Device:Polyfuse F1
+U 1 1 5F98CA50
+P 1300 950
+F 0 "F1" V 1075 950 50  0001 C CNN
+F 1 "Polyfuse" V 1166 950 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 750 50  0001 L CNN
+F 3 "~" H 1300 950 50  0001 C CNN
+	1    1300 950 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 750  2400 950 
+$Comp
+L Device:Polyfuse F2
+U 1 1 5F9AC98D
+P 1300 1050
+F 0 "F2" V 1075 1050 50  0001 C CNN
+F 1 "Polyfuse" V 1166 1050 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 850 50  0001 L CNN
+F 3 "~" H 1300 1050 50  0001 C CNN
+	1    1300 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F3
+U 1 1 5F9BB0FB
+P 1300 1150
+F 0 "F3" V 1075 1150 50  0001 C CNN
+F 1 "Polyfuse" V 1166 1150 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 950 50  0001 L CNN
+F 3 "~" H 1300 1150 50  0001 C CNN
+	1    1300 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F4
+U 1 1 5F9C99B3
+P 1300 1250
+F 0 "F4" V 1075 1250 50  0001 C CNN
+F 1 "Polyfuse" V 1166 1250 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 1050 50  0001 L CNN
+F 3 "~" H 1300 1250 50  0001 C CNN
+	1    1300 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F5
+U 1 1 5F9D837E
+P 1300 1350
+F 0 "F5" V 1075 1350 50  0001 C CNN
+F 1 "Polyfuse" V 1166 1350 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 1150 50  0001 L CNN
+F 3 "~" H 1300 1350 50  0001 C CNN
+	1    1300 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F6
+U 1 1 5F9F4FD9
+P 1300 1450
+F 0 "F6" V 1167 1450 50  0001 C CNN
+F 1 "Polyfuse" V 1166 1450 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 1250 50  0001 L CNN
+F 3 "~" H 1300 1450 50  0001 C CNN
+	1    1300 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F7
+U 1 1 5FA03312
+P 1300 1550
+F 0 "F7" V 1167 1550 50  0001 C CNN
+F 1 "Polyfuse" V 1166 1550 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 1350 50  0001 L CNN
+F 3 "~" H 1300 1550 50  0001 C CNN
+	1    1300 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse F8
+U 1 1 5FA11461
+P 1300 1650
+F 0 "F8" V 1075 1650 50  0001 C CNN
+F 1 "Polyfuse" V 1166 1650 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 1350 1450 50  0001 L CNN
+F 3 "~" H 1300 1650 50  0001 C CNN
+	1    1300 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 950  1150 950 
+Wire Wire Line
+	1450 950  2400 950 
+Connection ~ 2400 950 
+Wire Wire Line
+	2400 950  2400 1250
+Wire Wire Line
+	1450 1050 2300 1050
+Wire Wire Line
+	2300 1050 2300 1450
+Wire Wire Line
+	2300 1450 2400 1450
+Wire Wire Line
+	1000 1050 1150 1050
+Wire Wire Line
+	1150 1150 1000 1150
+Wire Wire Line
+	1000 1250 1150 1250
+Wire Wire Line
+	1150 1350 1000 1350
+Wire Wire Line
+	1000 1450 1150 1450
+Wire Wire Line
+	1150 1550 1000 1550
+Wire Wire Line
+	1000 1650 1150 1650
+Wire Wire Line
+	1450 1150 2200 1150
+Wire Wire Line
+	2200 1150 2200 2100
+Wire Wire Line
+	2200 2100 2400 2100
+Connection ~ 2400 2100
+Wire Wire Line
+	1450 1250 2100 1250
+Wire Wire Line
+	2100 1250 2100 2750
+Wire Wire Line
+	2100 2750 2400 2750
+Wire Wire Line
+	1450 1350 2000 1350
+Wire Wire Line
+	2000 1350 2000 3400
+Wire Wire Line
+	2000 3400 2400 3400
+Connection ~ 2400 3400
+Wire Wire Line
+	1450 1450 1900 1450
+Wire Wire Line
+	1900 1450 1900 4050
+Wire Wire Line
+	1900 4050 2400 4050
+Connection ~ 2400 4050
+Wire Wire Line
+	1450 1550 1800 1550
+Wire Wire Line
+	1800 1550 1800 4700
+Wire Wire Line
+	1800 4700 2400 4700
+Connection ~ 2400 4700
+Wire Wire Line
+	2400 4700 2550 4700
+Wire Wire Line
+	1450 1650 1700 1650
+Wire Wire Line
+	1700 1650 1700 5350
+Wire Wire Line
+	1700 5350 2400 5350
+Connection ~ 2400 5350
 $EndSCHEMATC
