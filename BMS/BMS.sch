@@ -58,10 +58,10 @@ Wire Wire Line
 Wire Wire Line
 	9450 1450 9850 1450
 $Comp
-L Connector:Conn_01x02_Male J2
+L Connector:Conn_01x02_Male J3
 U 1 1 5C641A44
 P 10750 2700
-F 0 "J2" H 10723 2580 50  0000 R CNN
+F 0 "J3" H 10723 2580 50  0000 R CNN
 F 1 "IsoSPI" H 10723 2671 50  0000 R CNN
 F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 10750 2700 50  0001 C CNN
 F 3 "~" H 10750 2700 50  0001 C CNN
@@ -142,10 +142,6 @@ F 3 "~" H 10650 5300 50  0001 C CNN
 $EndComp
 Text GLabel 10650 5150 1    50   Input ~ 0
 VREG
-Text GLabel 8350 2450 0    50   BiDi ~ 0
-IPA
-Text GLabel 8350 3050 0    50   BiDi ~ 0
-IMA
 $Comp
 L Device:R R32
 U 1 1 5CB4E575
@@ -266,22 +262,18 @@ VREG
 $Comp
 L Device:R_Small R5
 U 1 1 5CA45635
-P 9700 1250
-F 0 "R5" V 9750 1400 50  0000 C CNN
-F 1 "200" V 9700 1250 38  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9700 1250 50  0001 C CNN
-F 3 "~" H 9700 1250 50  0001 C CNN
-	1    9700 1250
+P 10800 1250
+F 0 "R5" V 10700 1250 50  0000 C CNN
+F 1 "200" V 10800 1250 38  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10800 1250 50  0001 C CNN
+F 3 "~" H 10800 1250 50  0001 C CNN
+	1    10800 1250
 	0    1    1    0   
 $EndComp
-Text GLabel 9450 1250 0    50   BiDi ~ 0
-IPA
-Text GLabel 10550 1250 2    50   BiDi ~ 0
-IMA
 Wire Wire Line
 	9800 1250 9950 1250
 Wire Wire Line
-	9450 1250 9600 1250
+	10550 1250 10700 1250
 Text GLabel 9450 4150 1    50   Input ~ 0
 VREG
 Text GLabel 9250 4150 1    50   Input ~ 0
@@ -350,10 +342,10 @@ Connection ~ 10650 5550
 Wire Wire Line
 	10650 5550 10450 5550
 $Comp
-L Connector:Conn_01x02_Male J10
+L Connector:Conn_01x02_Male J4
 U 1 1 5CFAF992
 P 10750 2900
-F 0 "J10" H 10723 2780 50  0000 R CNN
+F 0 "J4" H 10723 2780 50  0000 R CNN
 F 1 "IsoSPI" H 10723 2871 50  0000 R CNN
 F 2 "Connector_Molex:Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal" H 10750 2900 50  0001 C CNN
 F 3 "~" H 10750 2900 50  0001 C CNN
@@ -425,10 +417,10 @@ Text Notes 10200 2000 0    50   ~ 0
 NoConn ~ 9750 2750
 NoConn ~ 9650 5750
 $Comp
-L Connector_Generic:Conn_02x07_Top_Bottom J3
+L Connector_Generic:Conn_02x07_Top_Bottom J2
 U 1 1 5F5895D7
 P 9100 5350
-F 0 "J3" H 9150 5867 50  0000 C CNN
+F 0 "J2" H 9150 5867 50  0000 C CNN
 F 1 "Temp Sensors" H 9150 5776 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Nano-Fit_105314-xx14_2x07_P2.50mm_Horizontal" H 9100 5350 50  0001 C CNN
 F 3 "~" H 9100 5350 50  0001 C CNN
@@ -877,10 +869,6 @@ Text GLabel 6500 2200 2    50   Input ~ 0
 ICMP
 Text GLabel 6500 2100 2    50   Output ~ 0
 IBIAS
-Text GLabel 6500 2400 2    50   BiDi ~ 0
-IMA
-Text GLabel 6500 2300 2    50   BiDi ~ 0
-IPA
 Connection ~ 7100 750 
 Text GLabel 6500 2600 2    50   Input ~ 0
 VREG
@@ -1073,9 +1061,9 @@ Wire Wire Line
 Wire Wire Line
 	3350 2750 4900 2750
 Text Label 10350 2600 1    50   ~ 0
-IsoSPI_P
+extIsoSPI_P
 Text Label 10350 2850 3    50   ~ 0
-IsoSPI_N
+extIsoSPI_N
 Wire Wire Line
 	7100 750  7550 750 
 $Comp
@@ -1264,4 +1252,16 @@ Wire Wire Line
 Wire Wire Line
 	1700 5350 2400 5350
 Connection ~ 2400 5350
+Text GLabel 10900 1250 2    50   BiDi ~ 0
+IsoSPI_N
+Text GLabel 6500 2300 2    50   BiDi ~ 0
+IsoSPI_P
+Text GLabel 8350 2450 0    50   BiDi ~ 0
+IsoSPI_P
+Text GLabel 9800 1250 0    50   BiDi ~ 0
+IsoSPI_P
+Text GLabel 6500 2400 2    50   BiDi ~ 0
+IsoSPI_N
+Text GLabel 8350 3050 0    50   BiDi ~ 0
+IsoSPI_N
 $EndSCHEMATC
