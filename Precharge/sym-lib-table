@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "precharge_symbols")(type "KiCad")(uri "${KIPRJMOD}/precharge_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "molex_1053091202")(type "KiCad")(uri "${KIPRJMOD}/molex_1053091202.kicad_sym")(options "")(descr ""))
+  (lib (name "molex_1053091203")(type "KiCad")(uri "${KIPRJMOD}/molex_1053091203.kicad_sym")(options "")(descr ""))
+)

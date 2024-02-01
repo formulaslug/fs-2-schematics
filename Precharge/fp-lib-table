@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Precharge_Library")(type "KiCad")(uri "${KIPRJMOD}/Precharge_Library.pretty")(options "")(descr ""))
+)
