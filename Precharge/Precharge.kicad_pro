@@ -391,7 +391,8 @@
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "precharge_symbols",
-      "molex_1053091202"
+      "molex_1053091202",
+      "molex_1053091203"
     ]
   },
   "meta": {
