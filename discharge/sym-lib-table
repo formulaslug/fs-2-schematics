@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Discharge")(type "KiCad")(uri "${KIPRJMOD}/Discharge.kicad_sym")(options "")(descr ""))
+  (lib (name "molex_1053091202")(type "KiCad")(uri "${KIPRJMOD}/molex_1053091202.kicad_sym")(options "")(descr ""))
+)
