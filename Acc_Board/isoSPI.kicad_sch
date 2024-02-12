@@ -996,10 +996,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 90762fcb-3bfa-4f11-862a-bdf4ae83b451)
   )
-  (hierarchical_label "+3.3V" (shape input) (at 35.56 35.56 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ea36d191-e85c-4061-a92f-a5215fe91908)
-  )
   (hierarchical_label "GND" (shape input) (at 88.9 67.31 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f29a781a-029d-4718-839d-e9f83e0b9550)
@@ -1008,7 +1004,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 173.99 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00366d29-27c1-4ed2-bd56-878ab10ac3b4)
-    (property "Reference" "J4" (at 174.6758 32.512 0)
+    (property "Reference" "J?" (at 174.6758 32.512 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "IsoSPI" (at 174.6758 34.8234 0)
@@ -1025,20 +1021,20 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "J4") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "J2") (unit 1)
+          (reference "J?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "J3") (unit 1)
+          (reference "J?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "J4") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -1047,7 +1043,7 @@
   (symbol (lib_id "Device:C") (at 116.84 36.83 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07349ee1-469b-4d8e-8ed3-6c2a53c94c4c)
-    (property "Reference" "C12" (at 113.9444 35.6616 0)
+    (property "Reference" "C?" (at 113.9444 35.6616 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "15pF" (at 113.9444 37.973 0)
@@ -1064,20 +1060,20 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "C12") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "C1") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "C8") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "C12") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1086,7 +1082,7 @@
   (symbol (lib_id "power:GND") (at 123.19 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 074a04dc-104c-422c-9602-66e7ccc609a0)
-    (property "Reference" "#PWR05" (at 123.19 54.61 0)
+    (property "Reference" "#PWR?" (at 123.19 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 53.34 0)
@@ -1102,15 +1098,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1119,7 +1115,7 @@
   (symbol (lib_id "power:GND") (at 35.56 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b71a696-8016-453b-be36-de6da808f090)
-    (property "Reference" "#PWR01" (at 35.56 59.69 0)
+    (property "Reference" "#PWR?" (at 35.56 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 35.56 58.42 0)
@@ -1135,12 +1131,12 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1149,7 +1145,7 @@
   (symbol (lib_id "power:GND") (at 58.42 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10e56de4-0f55-49aa-a902-f3a7c1e08239)
-    (property "Reference" "#PWR020" (at 64.77 43.18 0)
+    (property "Reference" "#PWR?" (at 64.77 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 62.23 43.18 90)
@@ -1165,15 +1161,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1182,7 +1178,7 @@
   (symbol (lib_id "power:GND") (at 88.9 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a91bf07-6c53-4a5a-ab21-c213b9d27b56)
-    (property "Reference" "#PWR07" (at 88.9 73.66 0)
+    (property "Reference" "#PWR037" (at 88.9 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 88.9 72.39 0)
@@ -1198,7 +1194,7 @@
     (instances
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1207,7 +1203,7 @@
   (symbol (lib_id "Device:R") (at 116.84 30.48 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 351e2b04-2c0a-4aa7-9362-187c320933d1)
-    (property "Reference" "R32" (at 115.062 29.3116 0)
+    (property "Reference" "R?" (at 115.062 29.3116 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "402" (at 116.84 30.48 90)
@@ -1224,53 +1220,20 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "R32") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "R1") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "R7") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "R32") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 36.83 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 378479a8-2856-45f6-ade8-eb59b24b8a38)
-    (property "Reference" "#PWR019" (at 40.64 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 33.02 35.56 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "" (at 36.83 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 36.83 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bffcbe5b-c189-48cb-a0a4-16806013101b))
-    (instances
-      (project "BMS_Controller"
-        (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "#PWR019") (unit 1)
-        )
-        (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR029") (unit 1)
-        )
-      )
-      (project "Acc_Board"
-        (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR019") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1279,7 +1242,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.19 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4f865198-d738-4411-a907-e76365d01502)
-    (property "Reference" "C13" (at 127 45.72 90)
+    (property "Reference" "C?" (at 127 45.72 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10nF" (at 120.65 45.72 90)
@@ -1296,20 +1259,20 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "C13") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "C2") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "C9") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "C13") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1318,7 +1281,7 @@
   (symbol (lib_id "Device:R") (at 157.48 36.83 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c9a2102-af64-49f0-abc3-d51adeac3f34)
-    (property "Reference" "R41" (at 156.21 34.29 90)
+    (property "Reference" "R?" (at 156.21 34.29 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 157.48 36.83 90)
@@ -1335,20 +1298,20 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "R41") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "R3") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "R9") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "R41") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1357,7 +1320,7 @@
   (symbol (lib_id "FS_2:LTC6820") (at 46.99 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d09489f-675a-4bb5-af97-6a70ffef1ab9)
-    (property "Reference" "U2" (at 46.99 27.94 0)
+    (property "Reference" "U?" (at 46.99 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LTC6820" (at 46.99 30.48 0)
@@ -1388,15 +1351,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "U2") (unit 1)
+          (reference "U?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "U6") (unit 1)
+          (reference "U?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "U2") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -1405,7 +1368,7 @@
   (symbol (lib_id "power:GND") (at 58.42 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b2f9b1b-a89d-48d9-af03-0508a4a19d6e)
-    (property "Reference" "#PWR01" (at 58.42 71.12 0)
+    (property "Reference" "#PWR?" (at 58.42 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 69.85 0)
@@ -1421,15 +1384,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1438,7 +1401,7 @@
   (symbol (lib_id "FSSymbols:HM2113ZNL") (at 137.16 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77258672-0f49-46de-b68b-e9c4d4e3f878)
-    (property "Reference" "L1" (at 137.16 27.2288 0)
+    (property "Reference" "L?" (at 137.16 27.2288 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HM2113ZNL" (at 137.16 29.5402 0)
@@ -1459,15 +1422,15 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "L1") (unit 1)
+          (reference "L?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "L2") (unit 1)
+          (reference "L?") (unit 1)
         )
       )
       (project "Acc_Board"
@@ -1481,7 +1444,7 @@
   (symbol (lib_id "power:+3.3V") (at 35.56 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9329f44a-aeb9-4936-99dd-053e4dbac6a6)
-    (property "Reference" "#PWR018" (at 39.37 48.26 0)
+    (property "Reference" "#PWR?" (at 39.37 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 31.75 48.26 90)
@@ -1497,15 +1460,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1514,7 +1477,7 @@
   (symbol (lib_id "power:+3.3V") (at 60.96 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a14d4b08-2336-4b1e-9727-de4cc220db78)
-    (property "Reference" "#PWR011" (at 57.15 45.72 0)
+    (property "Reference" "#PWR?" (at 57.15 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 64.77 45.72 90)
@@ -1530,15 +1493,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1547,7 +1510,7 @@
   (symbol (lib_id "Device:C") (at 58.42 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3be69bf-fdf8-4b77-b2b2-1c0f2a91f810)
-    (property "Reference" "C3" (at 60.96 60.96 0)
+    (property "Reference" "C?" (at 60.96 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 50.8 60.96 0)
@@ -1564,15 +1527,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "C3") (unit 1)
+          (reference "C?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "C10") (unit 1)
+          (reference "C?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1581,7 +1544,7 @@
   (symbol (lib_id "power:+3.3V") (at 59.69 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b648c29e-4dda-47b5-8944-ab68885ba946)
-    (property "Reference" "#PWR05" (at 55.88 53.34 0)
+    (property "Reference" "#PWR?" (at 55.88 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 63.5 53.34 90)
@@ -1597,12 +1560,12 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1611,7 +1574,7 @@
   (symbol (lib_id "Device:R") (at 81.28 40.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7aa86b8-7ef1-480f-ac0b-b2f34d4b1001)
-    (property "Reference" "R12" (at 83.82 40.64 90)
+    (property "Reference" "R?" (at 83.82 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5k" (at 81.28 40.64 90)
@@ -1631,20 +1594,53 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "R12") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "R4") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "R10") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "R12") (unit 1)
+          (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 36.83 35.56 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c6f4332c-e9eb-41b4-a68a-524db55a9261)
+    (property "Reference" "#PWR?" (at 40.64 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 33.02 35.56 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 36.83 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 36.83 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b4e201fc-f0fa-4201-8747-5d13cd316dcb))
+    (instances
+      (project "BMS_Controller"
+        (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "Acc_Board"
+        (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1653,7 +1649,7 @@
   (symbol (lib_id "Device:R") (at 81.28 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca253648-7aa5-462d-b47f-8724a6298120)
-    (property "Reference" "R13" (at 83.82 48.26 90)
+    (property "Reference" "R?" (at 83.82 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "680" (at 81.28 48.26 90)
@@ -1673,20 +1669,20 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "R13") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "R11") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "R13") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1695,7 +1691,7 @@
   (symbol (lib_id "power:+3.3V") (at 82.55 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e970b7d5-146f-4cd1-877a-d3f64401916a)
-    (property "Reference" "#PWR06" (at 82.55 71.12 0)
+    (property "Reference" "#PWR036" (at 82.55 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 82.55 62.23 0)
@@ -1711,7 +1707,7 @@
     (instances
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1720,7 +1716,7 @@
   (symbol (lib_id "power:GND") (at 81.28 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f89db961-de2d-4a23-b6a4-f3b1e9506cc1)
-    (property "Reference" "#PWR02" (at 81.28 58.42 0)
+    (property "Reference" "#PWR?" (at 81.28 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 57.15 0)
@@ -1736,15 +1732,15 @@
     (instances
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1753,7 +1749,7 @@
   (symbol (lib_id "Device:R") (at 157.48 31.75 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd1f2479-c818-4f93-816b-fbc734cc2bb1)
-    (property "Reference" "R40" (at 156.21 29.21 90)
+    (property "Reference" "R?" (at 156.21 29.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 157.48 31.75 90)
@@ -1770,20 +1766,20 @@
     (instances
       (project "BMS"
         (path "/72dffc1c-220a-4c2e-8170-16d349f136df"
-          (reference "R40") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "BMS_Controller"
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/cb6c61fd-673a-449c-8134-4a1c25621518/faa386f8-35fb-44d9-8ccf-12944498b7dc"
-          (reference "R8") (unit 1)
+          (reference "R?") (unit 1)
         )
       )
       (project "Acc_Board"
         (path "/e19d26dd-723b-45e6-9d59-b1730158e759/418586a7-bc6a-480e-8435-4a2eb96d1e0c"
-          (reference "R40") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )

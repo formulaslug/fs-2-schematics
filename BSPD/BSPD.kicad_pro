@@ -419,9 +419,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "unconnected-(U9-GND-Pad3)": "GND"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
