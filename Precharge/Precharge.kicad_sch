@@ -866,7 +866,7 @@
     (property "Value" "1053091202" (at 64.77 19.05 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Precharge_Library:MOLEX_1053091202" (at 58.42 21.59 0)
+    (property "Footprint" "1FS_2_Global_Footprint_Library:MOLEX_1053091202" (at 58.42 21.59 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 58.42 21.59 0)
@@ -884,8 +884,8 @@
     (property "MANUFACTURER" "Molex" (at 58.42 21.59 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "2" (uuid 95a48984-586d-48f5-989c-f3013017542b))
     (pin "1" (uuid b9e9c100-e1da-47f7-8271-eb701f486605))
+    (pin "2" (uuid 95a48984-586d-48f5-989c-f3013017542b))
     (instances
       (project "Precharge"
         (path "/ebbe473b-926f-45d4-8349-621c37aa98bc"
@@ -904,16 +904,16 @@
     (property "Value" "Relay_SPST-NO" (at 59.69 31.75 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Precharge_Library:G5PZ-1A-X DC12" (at 60.96 33.02 0)
+    (property "Footprint" "1FS_2_Global_Footprint_Library:G5PZ-1A-X DC12" (at 60.96 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 59.69 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 5e73a2a8-bfce-4e21-9daa-d49d19740dc6))
-    (pin "2" (uuid f5b36790-55d0-4637-9100-81580b5c9247))
-    (pin "4" (uuid 5064acac-bab1-4adc-9405-dbb325492199))
     (pin "1" (uuid f5cf5263-27d7-4406-8ece-7623fa17ebf6))
+    (pin "2" (uuid f5b36790-55d0-4637-9100-81580b5c9247))
+    (pin "3" (uuid 5e73a2a8-bfce-4e21-9daa-d49d19740dc6))
+    (pin "4" (uuid 5064acac-bab1-4adc-9405-dbb325492199))
     (instances
       (project "Precharge"
         (path "/ebbe473b-926f-45d4-8349-621c37aa98bc"
@@ -944,8 +944,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 59.69 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3ffd6c26-3fc0-4ed9-a7d9-80e251994bef))
     (pin "1" (uuid 990c37ca-2738-497d-a5c5-a62059b2aeca))
+    (pin "2" (uuid 3ffd6c26-3fc0-4ed9-a7d9-80e251994bef))
     (instances
       (project "Precharge"
         (path "/ebbe473b-926f-45d4-8349-621c37aa98bc"
@@ -964,16 +964,16 @@
     (property "Value" "Relay_SPST-NO" (at 59.69 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Precharge_Library:V23076A3001C132" (at 58.42 116.84 0)
+    (property "Footprint" "1FS_2_Global_Footprint_Library:V23076A3001C132" (at 58.42 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 59.69 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 32dd07c2-4a51-4cb1-b843-9c19b97c940e))
     (pin "1" (uuid 4d317460-0739-4592-babb-115e33964f22))
-    (pin "4" (uuid 67771125-f107-4338-8769-05bc38c06a66))
     (pin "2" (uuid 84919e39-f1e2-459b-ba74-b49ccead95ec))
+    (pin "4" (uuid 67771125-f107-4338-8769-05bc38c06a66))
+    (pin "5" (uuid 32dd07c2-4a51-4cb1-b843-9c19b97c940e))
     (instances
       (project "Precharge"
         (path "/ebbe473b-926f-45d4-8349-621c37aa98bc"
@@ -992,7 +992,7 @@
     (property "Value" "1053091203" (at 67.31 137.16 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Precharge_Library:MOLEX_1053091203" (at 71.12 135.89 0)
+    (property "Footprint" "1FS_2_Global_Footprint_Library:MOLEX_1053091203" (at 71.12 135.89 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 60.96 132.08 0)
@@ -1043,8 +1043,8 @@
     (property "Sim.Pins" "1=K 2=A" (at 59.69 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 75a7db2c-574e-4a37-9ce4-746deccd2fe7))
     (pin "1" (uuid 4d68ac1f-0025-43a0-a9fc-92c730aee4fe))
+    (pin "2" (uuid 75a7db2c-574e-4a37-9ce4-746deccd2fe7))
     (instances
       (project "Precharge"
         (path "/ebbe473b-926f-45d4-8349-621c37aa98bc"
@@ -1063,14 +1063,14 @@
     (property "Value" "120" (at 73.66 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Precharge_Library:THS15120RJ" (at 73.66 41.148 90)
+    (property "Footprint" "1FS_2_Global_Footprint_Library:THS15120RJ" (at 73.66 41.148 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 73.66 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "-" (uuid 643c49ac-67e1-4f12-b189-83883d828fda))
     (pin "+" (uuid 2a82a679-9706-4f63-8842-9a0739cca478))
+    (pin "-" (uuid 643c49ac-67e1-4f12-b189-83883d828fda))
     (instances
       (project "Precharge"
         (path "/ebbe473b-926f-45d4-8349-621c37aa98bc"
@@ -1089,7 +1089,7 @@
     (property "Value" "1053091202" (at 109.22 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Precharge_Library:MOLEX_1053091202" (at 100.33 114.3 0)
+    (property "Footprint" "1FS_2_Global_Footprint_Library:MOLEX_1053091202" (at 100.33 114.3 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 100.33 114.3 0)
@@ -1107,8 +1107,8 @@
     (property "MANUFACTURER" "Molex" (at 100.33 114.3 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
-    (pin "2" (uuid f2a93627-f5bb-4bb7-b027-6d6d27f17fab))
     (pin "1" (uuid 8f62f8c9-8eeb-4f2c-827a-c279e3718335))
+    (pin "2" (uuid f2a93627-f5bb-4bb7-b027-6d6d27f17fab))
     (instances
       (project "Precharge"
         (path "/ebbe473b-926f-45d4-8349-621c37aa98bc"
