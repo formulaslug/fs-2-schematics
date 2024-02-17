@@ -388,7 +388,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "1FS_2_Global_Footprint_Library"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
