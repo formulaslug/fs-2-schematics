@@ -1639,7 +1639,7 @@
     (property "Value" "IsoSPI" (at 182.88 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "1053091202:MOLEX_1053091202" (at 173.99 33.02 0)
+    (property "Footprint" "1FS_2_Global_Footprint_Library:MOLEX_1053091202" (at 173.99 33.02 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 173.99 33.02 0)
