@@ -190,7 +190,7 @@
   (pad "23" thru_hole circle (at 14 4) (size 2.625 2.625) (drill 1.75) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.102) (tstamp 0cef8a5f-5dbe-4dec-ab1f-82a1bf7fa4af))
   (model "${FS_2_SCHEMATICS}/3D Models/776087-1.step"
-    (offset (xyz 0 -31.5 11.5))
+    (offset (xyz 0 -31.8 11.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
