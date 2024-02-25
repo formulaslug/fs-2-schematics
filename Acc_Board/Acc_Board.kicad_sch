@@ -4087,7 +4087,7 @@
     (fill (type none))
     (uuid 78b4c27d-a23d-4eeb-9c7b-acb2df1ed04f)
   )
-  (rectangle (start 24.13 115.57) (end 100.33 171.45)
+  (rectangle (start 24.13 115.57) (end 101.6 170.18)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 9716a5fd-02b7-4418-8253-7d4084baaf42)
