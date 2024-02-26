@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.6,
-          "height": 2.4,
-          "width": 2.4
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "APPS_ETC.kicad_pro",
+    "filename": "Charging Shutdown Circuit.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -469,7 +469,7 @@
   },
   "sheets": [
     [
-      "21da8b0a-bf7f-4003-9579-5de7190091be",
+      "160379ad-6194-4298-b157-948e3cc7f004",
       ""
     ]
   ],
