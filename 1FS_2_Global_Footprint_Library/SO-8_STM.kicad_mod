@@ -140,4 +140,9 @@
   (pad "6" smd rect (at 2.4638 0.635) (size 1.9812 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f4ec73eb-c4c8-45df-9f9d-b0f548e5ccd9))
   (pad "7" smd rect (at 2.4638 -0.635) (size 1.9812 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp abb64331-1f61-4b79-9fd5-bc7ba2231f47))
   (pad "8" smd rect (at 2.4638 -1.905) (size 1.9812 0.5334) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 283eb4bf-63f5-4ade-898a-1bfc95188262))
+  (model "${FS_2_SCHEMATICS}/3D Models/SO_8.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

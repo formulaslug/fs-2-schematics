@@ -276,7 +276,7 @@
       (net 7 "/CAN_Tel_H") (pinfunction "CANH") (pintype "bidirectional") (tstamp 3eb03476-b8c3-4746-bd30-eb53657f5b5c))
     (pad "8" smd roundrect (at 4.525 -3.81 180) (size 2.35 0.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "+5V") (pinfunction "VCC2") (pintype "power_in") (tstamp cdf6db09-031e-4e5a-94d3-656dec8cc580))
-    (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOP-8_6.62x9.15mm_P2.54mm.wrl"
+    (model "${FS_2_SCHEMATICS}/3D Models/DUB0008A.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -444,6 +444,11 @@
       (net 51 "Net-(D3-K)") (pinfunction "R") (pintype "passive") (thermal_bridge_angle 45) (tstamp b123be95-9b69-4e97-9b50-f131826d7a1a))
     (pad "4" smd roundrect (at 2.932 -1.24 90) (size 2.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+12V") (pinfunction "R") (pintype "passive") (thermal_bridge_angle 45) (tstamp 86396dcf-ebc9-4135-93b8-9f14d1432908))
+    (model "${FS_2_SCHEMATICS}/3D Models/4pin SO6.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -537,6 +542,11 @@
       (net 49 "Net-(D1-K)") (pintype "passive") (tstamp 8b6f85e6-7055-499b-8b33-c106070bb8cd))
     (pad "6" thru_hole circle (at 5.08 -7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask")
       (net 50 "/SH_RESET") (pintype "passive") (tstamp 9631cd4d-0659-49dc-8467-fd492b3d7352))
+    (model "${FS_2_SCHEMATICS}/3D Models/g6bk-1114p-us_12dc.stp"
+      (offset (xyz 1.3 -1.35 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -1194,6 +1204,11 @@
       (net 49 "Net-(D1-K)") (pinfunction "R") (pintype "passive") (thermal_bridge_angle 45) (tstamp fb24587b-901c-4269-bd91-84eda46de360))
     (pad "4" smd roundrect (at 2.932 -1.24 90) (size 2.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "+12V") (pinfunction "R") (pintype "passive") (thermal_bridge_angle 45) (tstamp 99b36901-7ee0-4aed-aaac-04cbfa2115bd))
+    (model "${FS_2_SCHEMATICS}/3D Models/4pin SO6.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (footprint "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" (layer "F.Cu")
@@ -1855,6 +1870,11 @@
       (net 47 "unconnected-(U10-Pad6)") (pintype "passive+no_connect") (tstamp ecf7f397-c4cc-4099-b352-2d7865c9fa97))
     (pad "8" thru_hole circle (at 10.16 0) (size 1.651 1.651) (drill 1.143) (layers "*.Cu" "*.Mask")
       (net 51 "Net-(D3-K)") (pinfunction "+") (pintype "power_in") (tstamp e07785d9-2a82-46f2-b30f-8d0ee97ac850))
+    (model "${FS_2_SCHEMATICS}/3D Models/RELAY_DK2A_PAN.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Diode_SMD:D_2010_5025Metric_Pad1.52x2.65mm_HandSolder" (layer "F.Cu")
@@ -3158,7 +3178,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 32f30a67-b522-47df-9108-1c9d8a9a8245)
     )
-    (fp_text value "374" (at 0 1.65) (layer "F.Fab")
+    (fp_text value "370" (at 0 1.65) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c5bd55c4-0819-47ae-955f-553bfee56bea)
     )
@@ -3352,6 +3372,11 @@
       (net 57 "/BMS Light Low Side") (pinfunction "D") (pintype "unspecified") (tstamp 520474b9-c5a7-4662-a549-8a6a1b67aef4))
     (pad "8" smd rect (at 2.4638 -1.905) (size 1.9812 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 57 "/BMS Light Low Side") (pinfunction "D") (pintype "unspecified") (tstamp 633ea7d6-3696-487f-bca9-5a801a20dee6))
+    (model "${FS_2_SCHEMATICS}/3D Models/SO_8.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
@@ -3563,6 +3588,11 @@
       (net 58 "/IMD Light Low Side") (pinfunction "D") (pintype "unspecified") (tstamp 81d2b903-936c-49c4-96d1-019ad35aaeb5))
     (pad "8" smd rect (at 2.4638 -1.905) (size 1.9812 0.5334) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 58 "/IMD Light Low Side") (pinfunction "D") (pintype "unspecified") (tstamp 87669337-14b6-4935-9c59-91a8b177e5a2))
+    (model "${FS_2_SCHEMATICS}/3D Models/SO_8.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
@@ -3720,7 +3750,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1d6cc6b3-6cc9-46f2-ba30-fdf55f0ecec1)
     )
-    (fp_text value "374" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "370" (at 0 1.65 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a80ae1b6-7608-4aa5-80d5-35c42204fb17)
     )
