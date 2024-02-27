@@ -6374,7 +6374,7 @@
   (gr_text "IMD" (at 72.39 100.33) (layer "F.SilkS") (tstamp 91cab0c2-05c9-432b-b095-5b96c4901f83)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "IMD" (at 151.13 81.28 90) (layer "F.SilkS") (tstamp 954344ac-f37d-48e7-91b0-bf19fac4db1c)
+  (gr_text "SPI" (at 151.13 81.28 90) (layer "F.SilkS") (tstamp 954344ac-f37d-48e7-91b0-bf19fac4db1c)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "Out" (at 87.63 91.44) (layer "F.SilkS") (tstamp a2f41fb2-e15b-4bd6-8b03-2eb0064bab3d)
