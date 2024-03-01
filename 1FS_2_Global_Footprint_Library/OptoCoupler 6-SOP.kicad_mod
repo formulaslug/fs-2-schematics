@@ -25,4 +25,9 @@
     (thermal_bridge_angle 45) (tstamp b254dc1e-0ffc-4fa5-a735-87278dfdf0f8))
   (pad "4" smd roundrect (at 2.932 -1.24) (size 2.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 6891f631-56c4-4aad-aaff-05515c9dd359))
+  (model "${FS_2_SCHEMATICS}/3D Models/4pin SO6.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
