@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "Accumulator Board")
-    (date "2024-02-26")
-    (rev "1.4")
+    (date "2024-03-01")
+    (rev "1.5")
     (company "Formula Slug")
   )
 
@@ -6522,7 +6522,7 @@
   (gr_text "Vref" (at 90.17 92.71) (layer "F.SilkS") (tstamp e6409e76-0e0d-47be-921e-6d9f877de46f)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "FS-2 Acc Board\nFormula Slug\nV 1.4" (at 124.46 33.02) (layer "F.SilkS") (tstamp e9094d08-dce9-47c6-bb11-05de862331e7)
+  (gr_text "FS-2 Acc Board\nFormula Slug\nV 1.5" (at 124.46 33.02) (layer "F.SilkS") (tstamp e9094d08-dce9-47c6-bb11-05de862331e7)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "HV+" (at 143.51 93.98 90) (layer "F.SilkS") (tstamp ea17b636-f664-41eb-bc20-9f43a01b04a0)
