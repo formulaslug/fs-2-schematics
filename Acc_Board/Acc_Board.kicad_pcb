@@ -250,7 +250,7 @@
 
   (footprint "1FS_2_Global_Footprint_Library:FORMULA SLUG" (layer "F.Cu")
     (tstamp 01a8fc90-4315-40c4-8c0c-7c5a11f88ee7)
-    (at 126.40258 33.078544)
+    (at 122.59258 33.078544)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -6522,7 +6522,7 @@
   (gr_text "Vref" (at 90.17 92.71) (layer "F.SilkS") (tstamp e6409e76-0e0d-47be-921e-6d9f877de46f)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "FS-2 Acc Board\nFormula Slug\nV 1.5" (at 124.46 33.02) (layer "F.SilkS") (tstamp e9094d08-dce9-47c6-bb11-05de862331e7)
+  (gr_text "FS-2 Acc Board\nFormula Slug\nV 1.5\nDesigned By Cole Lewis" (at 120.65 33.02) (layer "F.SilkS") (tstamp e9094d08-dce9-47c6-bb11-05de862331e7)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "HV+" (at 143.51 93.98 90) (layer "F.SilkS") (tstamp ea17b636-f664-41eb-bc20-9f43a01b04a0)
