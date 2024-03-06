@@ -8516,7 +8516,7 @@
     (property "Reference" "C10" (at 151.13 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330nf" (at 151.13 137.16 0)
+    (property "Value" "100nf" (at 151.13 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 149.5552 139.7 0)
