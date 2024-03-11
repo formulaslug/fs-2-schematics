@@ -5266,7 +5266,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc6e4316-b4bc-4023-90e8-11771fbad8d3)
   )
-  (text "Add pull up and pull down resistors \nto short and open circuits"
+  (text "Add pull up and pull down resistors \nto short and open circuits\nfor brake sensor"
     (at 172.72 142.24 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 194 194 0 1)) (justify left bottom))
     (uuid cf07b0ae-b294-46ed-9f92-a1dd5ccf5f46)
