@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\emmas\OneDrive\Documents\fs-2-schematics\discharge\tractive\tractive.kicad_sch</source>
+    <date>4/15/2024 8:34:48 PM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tractive.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4001</value>
+      <footprint>Library:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4001" description="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="50V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c272779e-d218-40b8-90ba-f09ad638f15c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>20</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b10cb8f-245e-4c2f-bd3f-9f42cc37db6a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TSMP</value>
+      <footprint>Library:MOLEX_1053091202</footprint>
+      <fields>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.51 mm</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="molex_1053091202" part="1053091202" description=""/>
+      <property name="PARTREV" value="H"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.51 mm"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a51f7d1-7784-4868-9662-1031a44e022d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>776261-1</value>
+      <footprint>Library:CONN14_776261_TEC</footprint>
+      <datasheet>776261-1</datasheet>
+      <libsource lib="1FS_2_Global_Symbol_Library" part="776261-1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_keywords" value="776261-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea2e88cc-80ad-4cc3-9cba-06f1349d0bdf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>TS</value>
+      <footprint>Library:MOLEX_1053091202</footprint>
+      <fields>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.51 mm</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="molex_1053091202" part="1053091202" description=""/>
+      <property name="PARTREV" value="H"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.51 mm"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dec0c99-1ac6-45e6-b7b1-d12dc679af46</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Shutdown</value>
+      <footprint>Library:MOLEX_1053091202</footprint>
+      <fields>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.51 mm</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="molex_1053091202" part="1053091202" description=""/>
+      <property name="PARTREV" value="H"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.51 mm"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ea2fcdf-c54e-4bd4-813e-4919f504cb34</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>CAN</value>
+      <footprint>Library:MOLEX_1053091202</footprint>
+      <fields>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.51 mm</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="molex_1053091202" part="1053091202" description=""/>
+      <property name="PARTREV" value="H"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.51 mm"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4e2680e-1bb5-4f23-a5a4-781cf3704424</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>GLV</value>
+      <footprint>Library:MOLEX_1053091202</footprint>
+      <fields>
+        <field name="MANUFACTURER">Molex</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.51 mm</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="molex_1053091202" part="1053091202" description=""/>
+      <property name="PARTREV" value="H"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.51 mm"/>
+      <property name="MANUFACTURER" value="Molex"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2b0b4db-ba17-46db-a57e-bfdbbabdf3db</tstamps>
+    </comp>
+    <comp ref="PhoenixContact1">
+      <value>~</value>
+      <footprint>Library:relay</footprint>
+      <libsource lib="Discharge" part="2961309" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29b4926d-5067-48fd-8178-1692b345f643</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>680</value>
+      <footprint>Library:resistor</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d5d5452-8235-4128-b096-17e45de45003</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5k</value>
+      <footprint>Library:resistor_ts</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae203996-c9c3-4aa7-afd3-006b5f07b1a2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>5k</value>
+      <footprint>Library:resistor_ts</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73f8b0a4-9628-4d50-a926-f9c46199be32</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09e07e1d-7f68-4fcf-a228-5b516ad3798a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4221e5e-40e8-43e6-9c9c-9ecd450a65b9</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>Library:G70P02K</footprint>
+      <libsource lib="New_Library" part="pmos" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cb90f88-062b-495f-8145-2f32aafade46</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>PQDE6W-Q110-S5-H-D</value>
+      <footprint>1FS_2_Global_Footprint_Library:PQDE6W-Q110-S5-H-D_CUI</footprint>
+      <datasheet>PQDE6W-Q110-S5-H-D</datasheet>
+      <libsource lib="1FS_2_Global_Symbol_Library" part="PQDE6W-Q110-S5-H-D" description="DCDC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tractive.kicad_sch"/>
+      <property name="ki_description" value="DCDC"/>
+      <property name="ki_keywords" value="PQDE6W-Q110-S5-H-D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79b541c2-2357-4cc8-86aa-653b8427b94a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1FS_2_Global_Symbol_Library" part="776261-1">
+      <docs>776261-1</docs>
+      <footprints>
+        <fp>CONN14_776261_TEC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">776261-1</field>
+        <field name="Footprint">1FS_2_Global_Footprint_Library:CONN14_776261_TEC</field>
+        <field name="Datasheet">776261-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+        <pin num="7" name="7" type="unspecified"/>
+        <pin num="8" name="8" type="unspecified"/>
+        <pin num="9" name="9" type="unspecified"/>
+        <pin num="10" name="10" type="unspecified"/>
+        <pin num="11" name="11" type="unspecified"/>
+        <pin num="12" name="12" type="unspecified"/>
+        <pin num="13" name="13" type="unspecified"/>
+        <pin num="14" name="14" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="1FS_2_Global_Symbol_Library" part="PQDE6W-Q110-S5-H-D">
+      <description>DCDC</description>
+      <docs>PQDE6W-Q110-S5-H-D</docs>
+      <footprints>
+        <fp>PQDE6W-Q110-S5-H-D_CUI</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PQDE6W-Q110-S5-H-D</field>
+        <field name="Footprint">PQDE6W-Q110-S5-H-D_CUI</field>
+        <field name="Datasheet">PQDE6W-Q110-S5-H-D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4001">
+      <description>50V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Discharge" part="2961309">
+      <fields>
+        <field name="Reference">PhoenixContact1</field>
+        <field name="Value">~</field>
+        <field name="Footprint">Library:relay</field>
+      </fields>
+      <pins>
+        <pin num="1" name="coil" type="passive"/>
+        <pin num="2" name="coil" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="switching" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="switching" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="New_Library" part="pmos">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">~</field>
+        <field name="Footprint">Library:G70P02K</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="D" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="molex_1053091202" part="1053091202">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1053091202</field>
+        <field name="Footprint">1053091202:MOLEX_1053091202</field>
+        <field name="PARTREV">H</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.51 mm</field>
+        <field name="MANUFACTURER">Molex</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1FS_2_Global_Symbol_Library">
+      <uri>C:\Users\emmas\OneDrive\Documents\fs-2-schematics/1FS_2_Global_Symbol_Library.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="New_Library">
+      <uri>C:\Users\emmas\OneDrive\Documents\fs-2-schematics/discharge/tractive/PMPB15XP_115/New_Library.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/AIRS_FINAL">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="14" pintype="unspecified"/>
+      <node ref="PhoenixContact1" pin="1" pinfunction="coil" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="PhoenixContact1" pin="2" pinfunction="coil" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="5" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="6" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="PhoenixContact1" pin="3" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="unspecified"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="9" pintype="unspecified"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="14" name="Net-(PhoenixContact1-switching-Pad4)">
+      <node ref="PhoenixContact1" pin="4" pinfunction="switching" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(U2-D)">
+      <node ref="J2" pin="12" pinfunction="12" pintype="unspecified"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="16" name="Net-(U2-G)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="U3" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="17" name="Net-(U2-S)">
+      <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="S" pintype="unspecified"/>
+    </net>
+    <net code="19" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="20" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="21" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="7" pintype="unspecified"/>
+    </net>
+    <net code="22" name="unconnected-(J2-Pad10)">
+      <node ref="J2" pin="10" pinfunction="10" pintype="unspecified"/>
+    </net>
+    <net code="23" name="unconnected-(J2-Pad11)">
+      <node ref="J2" pin="11" pinfunction="11" pintype="unspecified"/>
+    </net>
+    <net code="24" name="unconnected-(J2-Pad13)">
+      <node ref="J2" pin="13" pinfunction="13" pintype="unspecified"/>
+    </net>
+    <net code="25" name="unconnected-(PhoenixContact1-Pad5)">
+      <node ref="PhoenixContact1" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(PhoenixContact1-Pad6)">
+      <node ref="PhoenixContact1" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(PhoenixContact1-Pad8)">
+      <node ref="PhoenixContact1" pin="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(PhoenixContact1-switching-Pad7)">
+      <node ref="PhoenixContact1" pin="7" pinfunction="switching" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U3-Pad1)">
+      <node ref="U3" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="30" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+  </nets>
+</export>
