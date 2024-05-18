@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Brakelight2-rescue")(type "Legacy")(uri "${FS_2_SCHEMATICS}/Brake Light/Brakelight2-rescue.lib")(options "")(descr ""))
+)
