@@ -1,0 +1,109 @@
+(footprint "TSMP Resistor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4df5e65a-2880-4890-88b7-3c8194060a81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TSMP Resistor"
+		(at 0 5.334 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f93a225d-44a3-4cd7-912b-8f11042de63a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TSMP Resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f03a24b7-ef53-49c7-a931-13fb8c7a1867")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df531046-6b28-416f-aeb3-b69482869428")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a7cffcf-c5e7-4ffc-883f-da77ff0b3286")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.16 -3.7465)
+		(end 9.906 3.7465)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f67c9397-0ad2-4228-a9eb-de1e72df9fa7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.834 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "94d5025b-9d4c-4da6-b179-aed21cb7959d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -14.097 0)
+		(size 1.3 1.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7510ccfb-fb6d-467d-b1b0-e2124dfb34a7")
+	)
+	(pad "2" thru_hole circle
+		(at 13.843 0)
+		(size 1.3 1.3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c82e755-56c0-4ee5-a5d9-1cc9df6b8765")
+	)
+)
