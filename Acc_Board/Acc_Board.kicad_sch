@@ -13633,6 +13633,18 @@
 		)
 		(uuid "037c4957-533e-46bb-854d-c169bf6280c7")
 	)
+	(text "Coil polarity matters!!"
+		(exclude_from_sim no)
+		(at 279.4 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0715fca8-3723-4cba-8e01-97c47b97026e")
+	)
 	(text "HVIL 1&2, Inside ACC"
 		(exclude_from_sim no)
 		(at 157.48 218.44 0)
@@ -13687,6 +13699,18 @@
 			(justify left bottom)
 		)
 		(uuid "16e57687-ff6a-4233-b344-26cd5be22da3")
+	)
+	(text "Short during BMS Fault ->\nAlso relay always open"
+		(exclude_from_sim no)
+		(at 253.492 157.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e3bd9d7-3d30-46b4-b2a8-dc20235a425c")
 	)
 	(text "ACC Shutdown"
 		(exclude_from_sim no)
@@ -13764,6 +13788,30 @@
 			(justify left bottom)
 		)
 		(uuid "3da217ca-1cc9-4789-83de-1218ff9c5640")
+	)
+	(text "Set/Reset Backward!!\nAnd coil polarity matters!!"
+		(exclude_from_sim no)
+		(at 372.618 169.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e045732-f87a-4179-a96f-71b4b0168610")
+	)
+	(text "Also diode orientation\nbackward ->"
+		(exclude_from_sim no)
+		(at 259.588 147.574 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4245c606-f882-40b3-984a-8c6e966f56ae")
 	)
 	(text "~3.5 sec 555 delay before turn on"
 		(exclude_from_sim no)
@@ -13919,6 +13967,18 @@
 		)
 		(uuid "74b202d9-d212-4494-b217-835a42e778a8")
 	)
+	(text "Also diode orientation\n<- backward "
+		(exclude_from_sim no)
+		(at 344.17 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c29d6b1-0f41-4940-b3ad-ec72fc09e37e")
+	)
 	(text "3.3V"
 		(exclude_from_sim no)
 		(at 299.72 203.2 0)
@@ -14029,6 +14089,30 @@
 		)
 		(uuid "a18cc079-01f3-43b8-8633-7d75127d0fb8")
 	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 362.712 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a310b5d4-e849-4ffa-bd28-cf7c120bc24a")
+	)
+	(text "A lot of optos have a polarity\nfor the switched side too!"
+		(exclude_from_sim no)
+		(at 274.066 136.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a716dacf-274f-4ea3-bbd0-c837d30f041c")
+	)
 	(text "TS"
 		(exclude_from_sim no)
 		(at 20.32 196.85 0)
@@ -14039,6 +14123,18 @@
 			(justify left bottom)
 		)
 		(uuid "ad7fd06b-dfc7-4dbc-bbb0-466637389a9c")
+	)
+	(text "Coil polarity matters!!"
+		(exclude_from_sim no)
+		(at 324.612 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "adbd7f64-c4cd-4194-83c4-2fd22b6eb38c")
 	)
 	(text "AIR power from shutdown circuit; inside acc"
 		(exclude_from_sim no)
@@ -14182,6 +14278,18 @@
 			(justify left bottom)
 		)
 		(uuid "dc0d2f6c-8345-44e7-801b-4536eca2dfeb")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 368.3 159.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd0c055b-4655-4def-b549-c19d7ae93c16")
 	)
 	(text "0V or 2-3.1V"
 		(exclude_from_sim no)
