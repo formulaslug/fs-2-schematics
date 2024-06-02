@@ -13003,7 +13003,7 @@
 		)
 		(uuid "e66117f8-a888-4429-945c-8dc53eaa88f5")
 	)
-	(text "Front Brake\nSensor Open Circuit\n"
+	(text "Front Brake\nSensor Short Circuit\n"
 		(exclude_from_sim no)
 		(at 175.26 148.59 0)
 		(effects
@@ -13978,7 +13978,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 213.36 247.65 90)
 			(effects
 				(font
@@ -15358,7 +15358,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 218.44 266.7 90)
 			(effects
 				(font
@@ -15523,7 +15523,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 215.9 146.05 90)
 			(effects
 				(font
@@ -20876,7 +20876,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 210.82 127 90)
 			(effects
 				(font
