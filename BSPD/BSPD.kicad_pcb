@@ -18309,7 +18309,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "1k Ω"
+	(gr_text "10k Ω"
 		(at 63.246 29.464 0)
 		(layer "F.SilkS")
 		(uuid "4a6174ed-2f01-4f60-8ba0-0c6f3424573d")

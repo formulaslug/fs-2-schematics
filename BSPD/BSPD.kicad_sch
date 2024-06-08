@@ -10585,7 +10585,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 67.31) (xy 311.15 67.31)
+			(xy 306.07 67.31) (xy 311.15 67.31)
 		)
 		(stroke
 			(width 0)
@@ -11745,16 +11745,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 40.64) (xy 306.07 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9916678-62c6-4070-ade9-cd74ced03c71")
-	)
-	(wire
-		(pts
 			(xy 208.28 193.04) (xy 223.52 193.04)
 		)
 		(stroke
@@ -11885,7 +11875,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 40.64) (xy 294.64 67.31)
+			(xy 306.07 40.64) (xy 306.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -13059,7 +13049,7 @@
 		)
 		(uuid "00cce31c-f8bf-4eed-b51f-c5ecb046a07d")
 	)
-	(label "BSPD Fault Post Timer"
+	(label "BSPD Fault Pre NAND"
 		(at 486.4354 30.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13146,17 +13136,6 @@
 			(justify left bottom)
 		)
 		(uuid "177c9469-7781-42d5-a98c-35d08224fcda")
-	)
-	(label "BSPD Fault Post Timer"
-		(at 233.68 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ebb7ea8-baa8-44d8-a8da-129795ea8904")
 	)
 	(label "0.5V"
 		(at 207.01 199.39 0)
@@ -13289,6 +13268,17 @@
 			(justify right bottom)
 		)
 		(uuid "3be5dee0-3a01-4acf-ab61-2ce046069450")
+	)
+	(label "BSPD Fault Post NAND"
+		(at 233.68 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40211dcb-59f8-4aa5-bff9-bc268fc9bd36")
 	)
 	(label "Front Brake Output"
 		(at 326.39 104.14 0)
@@ -13829,6 +13819,17 @@
 		)
 		(uuid "d10466ff-b142-4705-9f3a-5fbf2256b165")
 	)
+	(label "BSPD Fault Pre NAND"
+		(at 300.99 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d134e464-8bba-4733-a8ff-4927543de731")
+	)
 	(label "Current Output Op"
 		(at 454.66 109.22 180)
 		(fields_autoplaced yes)
@@ -13873,7 +13874,7 @@
 		)
 		(uuid "ef3652fc-1430-4713-a93f-9b2dc7fda032")
 	)
-	(label "BSPD Fault Post Timer"
+	(label "BSPD Fault Post NAND"
 		(at 386.08 31.75 0)
 		(fields_autoplaced yes)
 		(effects
