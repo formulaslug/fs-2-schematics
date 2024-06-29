@@ -20035,7 +20035,7 @@
 				)
 			)
 		)
-		(property "Value" "1600"
+		(property "Value" "1.6k"
 			(at 233.68 147.32 90)
 			(effects
 				(font
@@ -20904,7 +20904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33µF"
+		(property "Value" "330nF"
 			(at 46.99 158.75 0)
 			(effects
 				(font
@@ -24101,7 +24101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "1FS_2_Global_Footprint_Library:Omron G6BK-1114P-US"
 			(at 400.685 172.72 0)
 			(effects
 				(font
@@ -24603,7 +24603,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.33µF"
+		(property "Value" "330nF"
 			(at 80.01 158.75 0)
 			(effects
 				(font
