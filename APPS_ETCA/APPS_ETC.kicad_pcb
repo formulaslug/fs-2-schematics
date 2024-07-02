@@ -552,7 +552,7 @@
 
   (footprint "FSFootprints:FS_Logo" (layer "F.Cu")
     (tstamp 3965d348-1b67-4eda-a90b-10e4e9bfbea0)
-    (at 147.936859 70.648981)
+    (at 143.51 69.85)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
         (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -4326,10 +4326,10 @@
 
   (gr_rect (start 135.636 64.008) (end 229.108 133.604)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 1c5c830d-1914-4780-9e76-b27edfaccbcc))
-  (gr_text "FS-2 APPS/ETC" (at 142.24 76.708) (layer "F.SilkS") (tstamp 08a741c6-fde9-4bdd-979f-0c7d02c7a6ab)
+  (gr_text "FS-2 APPS/ETC" (at 137.16 76.2) (layer "F.SilkS") (tstamp 08a741c6-fde9-4bdd-979f-0c7d02c7a6ab)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "Version 1.4 by Dustin and Abhi" (at 142.24 79.248) (layer "F.SilkS") (tstamp e86f3e12-f660-4bf1-8d43-899be2ae3a39)
+  (gr_text "Version 1.4 by Dustin and Abhi" (at 137.16 78.74) (layer "F.SilkS") (tstamp e86f3e12-f660-4bf1-8d43-899be2ae3a39)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
