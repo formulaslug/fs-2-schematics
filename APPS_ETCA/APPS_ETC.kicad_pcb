@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "APPS-ETC Board")
-    (date "2024-03-03")
-    (rev "1.1")
+    (date "2024-07-07")
+    (rev "2.0")
     (company "Formula Slug")
   )
 
@@ -3002,7 +3002,7 @@
     (property "ki_description" "STM32 Microcontroller")
     (path "/aa4ba5dd-074c-4783-808b-e10229183cfa")
     (attr through_hole)
-    (fp_text reference "U1" (at -5.715 -26.035) (layer "F.SilkS")
+    (fp_text reference "U1" (at -0.762 -26.375) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp af792b39-b244-4bba-82b6-2e7e88484ecb)
     )
@@ -4329,7 +4329,10 @@
   (gr_text "FS-2 APPS/ETC" (at 137.16 76.2) (layer "F.SilkS") (tstamp 08a741c6-fde9-4bdd-979f-0c7d02c7a6ab)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "Version 1.4 by Dustin and Abhi" (at 137.16 78.74) (layer "F.SilkS") (tstamp e86f3e12-f660-4bf1-8d43-899be2ae3a39)
+  (gr_text "USB" (at 180.34 69.85) (layer "F.SilkS") (tstamp d324c681-e8dc-4072-bf17-8590779da621)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "Version 2.0 by Dustin and Abhi" (at 137.16 78.74) (layer "F.SilkS") (tstamp e86f3e12-f660-4bf1-8d43-899be2ae3a39)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
