@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Accumulator Board")
-		(date "2024-06-29")
-		(rev "3.1")
+		(date "2024-07-07")
+		(rev "3.2")
 		(company "Formula Slug")
 	)
 	(lib_symbols
@@ -10916,6 +10916,12 @@
 		(uuid "4fc98bdd-b494-4c65-a105-ed449d96aa75")
 	)
 	(junction
+		(at 91.44 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51362ab1-3e09-4095-a3dd-f9fa2b324e25")
+	)
+	(junction
 		(at 403.86 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11076,6 +11082,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad3d10df-8f91-4370-90e6-9c02ea62be1d")
+	)
+	(junction
+		(at 99.06 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2bac669-f265-409f-b53d-fc73a3c98800")
 	)
 	(junction
 		(at 176.53 198.12)
@@ -12141,6 +12153,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 195.58) (xy 91.44 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d135b91-54e3-4076-827f-719e2a600029")
+	)
+	(wire
+		(pts
 			(xy 176.53 125.73) (xy 176.53 142.24)
 		)
 		(stroke
@@ -12288,6 +12310,16 @@
 			(type default)
 		)
 		(uuid "6508d9af-2833-4d17-a3d0-5feb3bc9e3c8")
+	)
+	(wire
+		(pts
+			(xy 99.06 195.58) (xy 91.44 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658970a7-f0ee-40a2-bc1d-3990939f5a49")
 	)
 	(wire
 		(pts
@@ -12951,7 +12983,7 @@
 	)
 	(polyline
 		(pts
-			(xy 20.32 196.85) (xy 101.6 196.85)
+			(xy 20.32 200.66) (xy 119.38 200.66)
 		)
 		(stroke
 			(width 0)
@@ -13781,7 +13813,7 @@
 	)
 	(rectangle
 		(start 20.32 175.26)
-		(end 101.6 279.4)
+		(end 119.38 279.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -14004,6 +14036,16 @@
 			(justify left bottom)
 		)
 		(uuid "348aab9d-4fa3-42eb-88f9-258bf0d3d373")
+	)
+	(text "AIRS Final"
+		(exclude_from_sim no)
+		(at 337.058 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3586b1ff-4131-45da-bbc4-0ab858a535fc")
 	)
 	(text "TS GND"
 		(exclude_from_sim no)
@@ -14316,7 +14358,7 @@
 	)
 	(text "TS"
 		(exclude_from_sim no)
-		(at 20.32 196.85 0)
+		(at 20.32 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14361,7 +14403,7 @@
 	)
 	(text "GLV"
 		(exclude_from_sim no)
-		(at 20.32 199.39 0)
+		(at 20.32 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14401,6 +14443,26 @@
 			)
 		)
 		(uuid "c1f9fdd4-7f87-4bcd-955e-6d0abf3367dc")
+	)
+	(text "RC low pass filter\nFind sampling rate\nNyquist frequency"
+		(exclude_from_sim no)
+		(at 196.088 19.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3c093ae-490b-4517-bc7e-9912162ae766")
+	)
+	(text "Check polarity and annotate"
+		(exclude_from_sim no)
+		(at 63.246 199.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5774e67-5e68-4eee-8fa9-970582e14ea5")
 	)
 	(text "The set part of the \nlatch needs indep. \npower (fixed)"
 		(exclude_from_sim no)
@@ -15372,7 +15434,7 @@
 		(dnp no)
 		(uuid "0458722a-4ef4-4216-88b3-e5abe483f285")
 		(property "Reference" "R1"
-			(at 95.25 195.58 90)
+			(at 95.25 191.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15889,10 +15951,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b075d17-861d-41cf-b73a-d8af16ec27e4")
 		(property "Reference" "D1"
-			(at 83.82 210.82 0)
+			(at 83.82 219.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,7 +15961,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 83.82 213.36 0)
+			(at 84.074 221.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15985,7 +16046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "10µF"
 			(at 91.44 134.62 0)
 			(effects
 				(font
@@ -16377,7 +16438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "10µF"
 			(at 44.45 134.62 0)
 			(effects
 				(font
@@ -18298,7 +18359,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -23359,6 +23419,116 @@
 		)
 	)
 	(symbol
+		(lib_id "1FS_2_Global_Symbol_Library:1053091202")
+		(at 104.14 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce2b3b46-765a-441f-ab68-df39f76ad7b5")
+		(property "Reference" "J10"
+			(at 113.03 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Precharge Resistor"
+			(at 99.822 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1FS_2_Global_Footprint_Library:MOLEX_1053091202"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "H"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.51 mm"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6e9f4a9-9211-4632-89ca-b7baa8237a53")
+		)
+		(pin "1"
+			(uuid "0a30726e-b4f1-4a3a-8d36-b324d495bb17")
+		)
+		(instances
+			(project ""
+				(path "/e19d26dd-723b-45e6-9d59-b1730158e759"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 288.29 160.02 0)
 		(unit 1)
@@ -24869,7 +25039,7 @@
 				)
 			)
 		)
-		(property "Value" "Relay_SPST-NO"
+		(property "Value" "G5PZ-1A-X DC12"
 			(at 83.82 186.69 90)
 			(effects
 				(font
