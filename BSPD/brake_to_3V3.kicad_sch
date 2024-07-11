@@ -459,7 +459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1200a95b-02f3-44a6-9101-4ae3e4210bae")
-		(property "Reference" "R25"
+		(property "Reference" "R12"
 			(at 50.8 20.32 0)
 			(effects
 				(font
@@ -513,7 +513,7 @@
 		(instances
 			(project "BSPD"
 				(path "/9b958334-fa88-4811-8197-71444a07b1b5/5896a7f2-04c2-4c50-b54b-d702debc4319"
-					(reference "R25")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -528,7 +528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b29aee6-3792-4463-a6ab-6c02f542efd1")
-		(property "Reference" "R23"
+		(property "Reference" "R11"
 			(at 38.1 20.32 90)
 			(effects
 				(font
@@ -580,7 +580,7 @@
 		(instances
 			(project "BSPD"
 				(path "/9b958334-fa88-4811-8197-71444a07b1b5/5896a7f2-04c2-4c50-b54b-d702debc4319"
-					(reference "R23")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -662,7 +662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c3c4058-36e8-4b37-a82b-a05fdb2a9802")
-		(property "Reference" "R26"
+		(property "Reference" "R14"
 			(at 50.8 30.48 0)
 			(effects
 				(font
@@ -716,7 +716,7 @@
 		(instances
 			(project "BSPD"
 				(path "/9b958334-fa88-4811-8197-71444a07b1b5/5896a7f2-04c2-4c50-b54b-d702debc4319"
-					(reference "R26")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -865,7 +865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb1a7b20-9c14-4ebf-b69a-c35cfccbf5f2")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 		(instances
 			(project "BSPD"
 				(path "/9b958334-fa88-4811-8197-71444a07b1b5/5896a7f2-04c2-4c50-b54b-d702debc4319"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -934,7 +934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6abcd05-f693-489c-8173-97cadf7bf5bb")
-		(property "Reference" "R24"
+		(property "Reference" "R13"
 			(at 38.1 30.48 90)
 			(effects
 				(font
@@ -986,7 +986,7 @@
 		(instances
 			(project "BSPD"
 				(path "/9b958334-fa88-4811-8197-71444a07b1b5/5896a7f2-04c2-4c50-b54b-d702debc4319"
-					(reference "R24")
+					(reference "R13")
 					(unit 1)
 				)
 			)
