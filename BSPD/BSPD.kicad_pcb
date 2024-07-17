@@ -10,7 +10,7 @@
 	(title_block
 		(title "BSPD +")
 		(date "2024-07-11")
-		(rev "3.0")
+		(rev "3.6")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -32224,7 +32224,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FS-2 Brake System Plausibility Device\nTelemetry Microcontroller + BSPD\nDesigned by Nathaniel Platt      V3.0"
+	(gr_text "FS-2 Brake System Plausibility Device\nTelemetry Microcontroller + BSPD\nDesigned by Nathaniel Platt      V3.6"
 		(at 157.03498 27.896944 0)
 		(layer "F.SilkS")
 		(uuid "805b424d-302e-4ac7-ac27-d8f018027ef5")

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Brake System Plausability Device +")
 		(date "2024-07-07")
-		(rev "FS2 6.0")
+		(rev "FS2 6.8")
 	)
 	(lib_symbols
 		(symbol "1FS_2_Global_Symbol_Library:FS Logo"
