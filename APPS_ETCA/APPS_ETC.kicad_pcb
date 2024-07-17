@@ -4332,7 +4332,7 @@
   (gr_text "USB" (at 180.34 69.85) (layer "F.SilkS") (tstamp d324c681-e8dc-4072-bf17-8590779da621)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
-  (gr_text "Version 2.0 by Dustin and Abhi" (at 137.16 78.74) (layer "F.SilkS") (tstamp e86f3e12-f660-4bf1-8d43-899be2ae3a39)
+  (gr_text "Version 3.0 by Dustin and Abhi" (at 137.16 78.74) (layer "F.SilkS") (tstamp e86f3e12-f660-4bf1-8d43-899be2ae3a39)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
