@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Brake System Plausability Device +")
-		(date "2024-07-07")
-		(rev "FS2 6.8")
+		(date "2024-07-18")
+		(rev "FS2 7.0")
 	)
 	(lib_symbols
 		(symbol "1FS_2_Global_Symbol_Library:FS Logo"
@@ -4275,16 +4275,8 @@
 		(uuid "2051ab30-3c1a-437c-a834-fe1534fa428b")
 	)
 	(no_connect
-		(at 363.22 38.1)
-		(uuid "2af2f3c4-e3eb-41ec-9d26-600201f6d1af")
-	)
-	(no_connect
 		(at 97.79 237.49)
 		(uuid "2b752d09-3132-43d4-9c47-14cda7cedd1b")
-	)
-	(no_connect
-		(at 363.22 40.64)
-		(uuid "2ec3b4f7-0087-436f-9327-3061f7e0d49e")
 	)
 	(no_connect
 		(at 138.43 40.64)
@@ -4363,16 +4355,8 @@
 		(uuid "c3ef68dc-dd3f-478a-b693-98432b910125")
 	)
 	(no_connect
-		(at 363.22 43.18)
-		(uuid "c3fc1607-4f8b-4ae3-a0f6-441d24ddd71e")
-	)
-	(no_connect
 		(at 138.43 63.5)
 		(uuid "d088741b-6de6-4fb3-93cb-722da3c84d74")
-	)
-	(no_connect
-		(at 363.22 35.56)
-		(uuid "ddd8d349-5198-45bc-a8de-e700f47c848d")
 	)
 	(no_connect
 		(at 138.43 38.1)
@@ -6807,6 +6791,16 @@
 		)
 		(uuid "1b712e1c-6548-4a04-a154-3bab8a0e4b39")
 	)
+	(text "Brake Sensor\nPower"
+		(exclude_from_sim no)
+		(at 377.444 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d9bc14d-122a-41a1-964b-bf2eab5ef337")
+	)
 	(text "High Current"
 		(exclude_from_sim no)
 		(at 53.848 211.582 0)
@@ -7121,6 +7115,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0bd7341-7af4-4da6-8607-d142c44e9c66")
+	)
+	(text "Brake Sensor\nGround"
+		(exclude_from_sim no)
+		(at 377.698 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb364389-7cd1-4dd5-924c-b33702362c94")
 	)
 	(text "Front Brake\nHard Braking\n"
 		(exclude_from_sim no)
@@ -9965,6 +9969,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 363.22 40.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13e4214e-89af-44f5-9f6c-d48044ead669")
+		(property "Reference" "#PWR0128"
+			(at 369.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "609e1d07-889f-49b0-857c-08e043390fb0")
+		)
+		(instances
+			(project "BSPD"
+				(path "/9b958334-fa88-4811-8197-71444a07b1b5"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 218.44 67.31 90)
 		(unit 1)
@@ -11802,6 +11874,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 363.22 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e2f84cc-0386-4584-939b-94a61781add3")
+		(property "Reference" "#PWR0133"
+			(at 359.41 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 367.03 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a28eff1-8875-462f-a273-7dd27cee4532")
+		)
+		(instances
+			(project "BSPD"
+				(path "/9b958334-fa88-4811-8197-71444a07b1b5"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 130.81 186.69 0)
 		(unit 5)
@@ -13457,6 +13596,73 @@
 			(project "Acc_Board"
 				(path "/e19d26dd-723b-45e6-9d59-b1730158e759"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 363.22 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b19e2a-7976-4dc1-926c-198907c3b640")
+		(property "Reference" "#PWR0132"
+			(at 359.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 367.03 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c73bb6b-6652-4ed8-89a7-b3ccf88a2afc")
+		)
+		(instances
+			(project "BSPD"
+				(path "/9b958334-fa88-4811-8197-71444a07b1b5"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -21523,6 +21729,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 363.22 43.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe2209e-14f3-4d6c-9859-66bd269817c6")
+		(property "Reference" "#PWR0129"
+			(at 369.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3668e721-c893-4b06-9371-8dfcc4a4f0f5")
+		)
+		(instances
+			(project "BSPD"
+				(path "/9b958334-fa88-4811-8197-71444a07b1b5"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:MCP6004")
 		(at 29.21 171.45 0)
 		(unit 5)
@@ -21624,6 +21898,73 @@
 				(path "/9b958334-fa88-4811-8197-71444a07b1b5"
 					(reference "U5")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 38.1 116.84 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff17b4d9-d421-4a4b-99b7-e5939263d2b4")
+		(property "Reference" "#PWR0131"
+			(at 34.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 41.91 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0400daf-8eb7-4c18-b136-3691da6aca99")
+		)
+		(instances
+			(project "BSPD"
+				(path "/9b958334-fa88-4811-8197-71444a07b1b5"
+					(reference "#PWR0131")
+					(unit 1)
 				)
 			)
 		)
@@ -21804,6 +22145,16 @@
 				(justify right)
 			)
 			(uuid "723072ad-23c3-4c60-8061-5603ac850535")
+		)
+		(pin "9V" input
+			(at 38.1 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40731413-312e-4ba3-8137-b598779d5361")
 		)
 		(instances
 			(project "BSPD"

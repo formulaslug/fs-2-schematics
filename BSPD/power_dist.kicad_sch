@@ -1317,6 +1317,18 @@
 		)
 		(uuid "f9f49350-92c8-4223-bc0b-15dc1d2afb97")
 	)
+	(hierarchical_label "9V"
+		(shape input)
+		(at 20.32 19.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00e92f60-f460-4616-b51b-1a9778450248")
+	)
 	(hierarchical_label "12V"
 		(shape input)
 		(at 20.32 16.51 180)
@@ -1331,7 +1343,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 20.32 21.59 180)
+		(at 20.32 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1343,7 +1355,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 20.32 24.13 180)
+		(at 20.32 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1355,7 +1367,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 20.32 19.05 180)
+		(at 20.32 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1505,7 +1517,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 20.32 21.59 270)
+		(at 20.32 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1513,7 +1525,7 @@
 		(dnp no)
 		(uuid "40c7849c-cba7-4a07-8806-7e98e6be993b")
 		(property "Reference" "#PWR087"
-			(at 16.51 21.59 0)
+			(at 16.51 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1534,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 23.368 21.59 90)
+			(at 23.368 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1531,7 +1543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 21.59 0)
+			(at 20.32 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 21.59 0)
+			(at 20.32 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1561,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 21.59 0)
+			(at 20.32 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,6 +1576,73 @@
 			(project "BSPD"
 				(path "/9b958334-fa88-4811-8197-71444a07b1b5/32759f45-19a1-4620-9c18-0e80413acfbe"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 20.32 19.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4494105f-d32a-47e5-9f8f-5c1dc43fb74c")
+		(property "Reference" "#PWR0130"
+			(at 16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 24.13 19.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8109d2f-7aba-4435-aa0a-e40cb69592a9")
+		)
+		(instances
+			(project "BSPD"
+				(path "/9b958334-fa88-4811-8197-71444a07b1b5/32759f45-19a1-4620-9c18-0e80413acfbe"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -2313,7 +2392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 24.13 90)
+		(at 20.32 26.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2322,7 +2401,7 @@
 		(fields_autoplaced yes)
 		(uuid "aff7e6eb-47a2-4313-828c-a6e0272e665a")
 		(property "Reference" "#PWR098"
-			(at 26.67 24.13 0)
+			(at 26.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 24.13 90)
+			(at 24.13 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 24.13 0)
+			(at 20.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2349,7 +2428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 24.13 0)
+			(at 20.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 24.13 0)
+			(at 20.32 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2804,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 20.32 19.05 270)
+		(at 20.32 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2734,7 +2813,7 @@
 		(fields_autoplaced yes)
 		(uuid "daa5791e-e46a-446d-bc54-4390daceacb7")
 		(property "Reference" "#PWR097"
-			(at 16.51 19.05 0)
+			(at 16.51 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2822,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 24.13 19.0499 90)
+			(at 24.13 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 19.05 0)
+			(at 20.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 19.05 0)
+			(at 20.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 19.05 0)
+			(at 20.32 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
