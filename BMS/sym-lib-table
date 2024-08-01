@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name FSSymbols)(type Legacy)(uri ${FS_2_SCHEMATICS}/FSSymbols.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "FSSymbols")(type "Legacy")(uri "C:/Users/fezbo/Documents/GitHub/fs-2-schematics/FSSymbols.lib")(options "")(descr ""))
 )

@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name FSFootprints)(type KiCad)(uri ${FS_2_SCHEMATICS}/FSFootprints)(options "")(descr ""))
+  (version 7)
+  (lib (name "FSFootprints")(type "KiCad")(uri "../FSFootprints")(options "")(descr ""))
 )
