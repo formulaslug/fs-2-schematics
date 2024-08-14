@@ -22517,7 +22517,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Current Threshhold" input
+		(pin "Current Threshhold" output
 			(at 54.61 22.86 0)
 			(effects
 				(font
@@ -22527,7 +22527,7 @@
 			)
 			(uuid "ba0afe15-7602-4cf1-885c-fd4516ffb4e9")
 		)
-		(pin "4.5V" input
+		(pin "4.5V" output
 			(at 54.61 25.4 0)
 			(effects
 				(font
@@ -22537,7 +22537,7 @@
 			)
 			(uuid "71ce2a11-0fe9-4bdf-94d7-d7c45dd13785")
 		)
-		(pin "0.26V" input
+		(pin "0.26V" output
 			(at 54.61 27.94 0)
 			(effects
 				(font
@@ -22557,7 +22557,7 @@
 			)
 			(uuid "78caeca1-b8ab-4d8d-942d-ad3f13a60621")
 		)
-		(pin "GND" input
+		(pin "GND" bidirectional
 			(at 22.86 24.13 180)
 			(effects
 				(font
@@ -22567,7 +22567,7 @@
 			)
 			(uuid "e9bf9e28-e08f-4a52-a463-99088604b2a7")
 		)
-		(pin "Brake Threshhold" input
+		(pin "Brake Threshhold" output
 			(at 54.61 30.48 0)
 			(effects
 				(font
@@ -22577,7 +22577,7 @@
 			)
 			(uuid "bb82dcc6-66a6-4397-b9fb-68832917085f")
 		)
-		(pin "0.5V" input
+		(pin "0.5V" output
 			(at 54.61 33.02 0)
 			(effects
 				(font

@@ -459,7 +459,7 @@
 		(uuid "f732e3da-8cbf-4c01-9a83-b0d176496542")
 	)
 	(hierarchical_label "0.26V"
-		(shape input)
+		(shape output)
 		(at 29.21 29.21 0)
 		(fields_autoplaced yes)
 		(effects
@@ -471,7 +471,7 @@
 		(uuid "1b0e3353-690b-43b7-95c6-44fc4a47f767")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape bidirectional)
 		(at 19.05 16.51 180)
 		(fields_autoplaced yes)
 		(effects
@@ -483,7 +483,7 @@
 		(uuid "565957a9-ee48-425b-9710-c32a66fc9bbc")
 	)
 	(hierarchical_label "4.5V"
-		(shape input)
+		(shape output)
 		(at 29.21 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -495,7 +495,7 @@
 		(uuid "7427c2df-326c-442e-a909-925758f650f0")
 	)
 	(hierarchical_label "0.5V"
-		(shape input)
+		(shape output)
 		(at 29.21 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -507,7 +507,7 @@
 		(uuid "9250a023-8406-4c6e-8adc-a734d82b9eb2")
 	)
 	(hierarchical_label "Brake Threshhold"
-		(shape input)
+		(shape output)
 		(at 29.21 44.45 0)
 		(fields_autoplaced yes)
 		(effects
@@ -519,7 +519,7 @@
 		(uuid "9fd457db-faa4-467d-a51d-3afcfbcdf944")
 	)
 	(hierarchical_label "Current Threshhold"
-		(shape input)
+		(shape output)
 		(at 142.24 19.05 0)
 		(fields_autoplaced yes)
 		(effects
