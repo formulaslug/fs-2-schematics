@@ -31749,7 +31749,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Micro Controller\nLM432KC"
+	(gr_text "Micro Controller\nL432KC"
 		(at 135.9916 120.8532 0)
 		(layer "F.SilkS")
 		(uuid "0efb0d90-3ec8-4934-89b3-29b6f62f1af7")

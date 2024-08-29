@@ -4096,6 +4096,28 @@
 			)
 		)
 	)
+	(global_label "Wheel Speed FR"
+		(shape output)
+		(at 241.3 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c1d5d79-530c-4743-8d7d-bfdda09e0eb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.7065 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Strain BL"
 		(shape output)
 		(at 38.1 102.87 0)
@@ -4140,6 +4162,28 @@
 			)
 		)
 	)
+	(global_label "Wheel Speed BL"
+		(shape output)
+		(at 241.3 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "186dcc65-cf8a-44ec-842d-17f4db4ee955")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.646 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S4"
 		(shape output)
 		(at 132.08 62.23 180)
@@ -4175,6 +4219,50 @@
 		(uuid "1e833a8d-e7a2-4a99-ae22-3341f43d8fd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.0356 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Wheel Speed BR"
+		(shape output)
+		(at 241.3 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "230ebec7-adc6-4d27-8085-c1ee738762c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.8879 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Wheel Speed FL"
+		(shape output)
+		(at 241.3 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26ae6767-9949-4b3f-9402-a5decaa7329f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.4646 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,6 +4360,28 @@
 			)
 		)
 	)
+	(global_label "Shock Position BR"
+		(shape output)
+		(at 241.3 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d78836f-b410-4d1d-a685-3f3ef33c0619")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.065 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Wheel Speed FR"
 		(shape input)
 		(at 93.98 138.43 180)
@@ -4351,6 +4461,28 @@
 		(uuid "493aa9a2-9ff0-4e3a-bcf3-b109867fb781")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 58.865 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Shock Position FR"
+		(shape output)
+		(at 241.3 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4ce48f16-f2bb-4595-84e9-38c6daa910b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.8836 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,6 +4602,28 @@
 			)
 		)
 	)
+	(global_label "Strain FR"
+		(shape output)
+		(at 241.3 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73ce0579-e56b-49a5-b588-3cacabe05e70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.2356 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC"
 		(shape input)
 		(at 177.8 64.77 0)
@@ -4505,6 +4659,28 @@
 		(uuid "76067005-e873-43a0-b7cb-c27f91d40ef6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.1837 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Strain FL"
+		(shape output)
+		(at 241.3 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80d489d3-378a-4df1-8d9b-685334e4b021")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.9937 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,6 +4778,28 @@
 			)
 		)
 	)
+	(global_label "Shock Position FL"
+		(shape output)
+		(at 241.3 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "896599ec-e94c-4f57-acc0-67f233b56608")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.6417 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S1"
 		(shape input)
 		(at 93.98 168.91 180)
@@ -4664,6 +4862,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Brake Sensor F"
+		(shape output)
+		(at 241.3 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8dc099e1-9256-49c4-978f-f98e252f4e91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.0413 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4976,6 +5196,50 @@
 			)
 		)
 	)
+	(global_label "Strain BL"
+		(shape output)
+		(at 241.3 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7feece7-25a0-4d0e-98aa-9a043b737b9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.1751 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Steering Sensor"
+		(shape output)
+		(at 241.3 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd9bc9ab-ff67-471e-92b4-59a316eda294")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.4646 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_H"
 		(shape bidirectional)
 		(at 77.47 43.18 90)
@@ -4998,9 +5262,31 @@
 			)
 		)
 	)
+	(global_label "Brake Sensor B"
+		(shape output)
+		(at 241.3 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e11aceba-7a4b-43b3-881a-4e3546021a0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.2227 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor R 3V3"
 		(shape input)
-		(at 93.98 130.81 180)
+		(at 93.98 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5010,12 +5296,34 @@
 		)
 		(uuid "e1cc1cb4-36a4-479e-ade1-5c88b77b5152")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5821 130.81 0)
+			(at 71.5821 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Strain BR"
+		(shape output)
+		(at 241.3 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1e36f82-b524-4b5e-ab85-ae85fbc08669")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.417 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5064,9 +5372,31 @@
 			)
 		)
 	)
+	(global_label "Shock Position BL"
+		(shape output)
+		(at 241.3 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f181e864-a511-40d7-bfb5-ea16fd91528a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.8231 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Brake Sensor F 3V3"
 		(shape input)
-		(at 93.98 128.27 180)
+		(at 93.98 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5076,7 +5406,7 @@
 		)
 		(uuid "f2f0a6b8-b8e3-4f3c-bbed-09df3d168a73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.7635 128.27 0)
+			(at 71.7635 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,6 +5501,336 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 102.87 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4acc8808-1a68-48eb-96ff-bb47a6979ed4")
+		(property "Netclass" "Signal"
+			(at 230.886 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c1f486f-7b35-40b1-a547-f93cb5500877")
+		(property "Netclass" "Signal"
+			(at 230.886 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 125.73 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "842f1f76-477e-479f-96a0-df22f03eb492")
+		(property "Netclass" "Signal"
+			(at 230.886 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 105.41 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "922b01c6-611f-4600-bce7-63201b069034")
+		(property "Netclass" "Signal"
+			(at 230.886 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cb92f73-3712-4a40-a55f-1ebd9e42b751")
+		(property "Netclass" "Signal"
+			(at 230.886 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 118.11 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a192923b-1881-4779-838a-6e7fbc3c811c")
+		(property "Netclass" "Signal"
+			(at 230.886 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 97.79 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3684019-b158-45cc-a04a-ea77d8db90be")
+		(property "Netclass" "Signal"
+			(at 230.886 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 123.19 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9937332-f596-4a9b-99f4-1bf32720ef98")
+		(property "Netclass" "Signal"
+			(at 230.886 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddb71301-f1bf-425e-b496-4c728a7b5134")
+		(property "Netclass" "Signal"
+			(at 230.886 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4b67593-0dc3-4bcd-bec0-0483c9eb7254")
+		(property "Netclass" "Signal"
+			(at 230.886 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 130.81 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6048920-1eb5-486a-b80f-2d460ac0e057")
+		(property "Netclass" "Signal"
+			(at 230.886 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 107.95 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8e958da-ce98-49de-92a1-d155fd0a049a")
+		(property "Netclass" "Signal"
+			(at 230.886 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec19d09d-6233-48b5-aad2-995a022394b1")
+		(property "Netclass" "Signal"
+			(at 230.886 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4a9cd6d-e443-4957-ae40-638c4dd4743d")
+		(property "Netclass" "Signal"
+			(at 230.886 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 241.3 115.57 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb411602-0d75-42a0-9366-b1c4dfb3cf28")
+		(property "Netclass" "Signal"
+			(at 230.886 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
