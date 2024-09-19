@@ -2079,7 +2079,7 @@
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "290bd901-39a2-415f-84eb-aeed9d8fedc8")
+			(uuid "c37561d7-d842-434b-bf09-34ca9cfa1dc8")
 			(effects
 				(font
 					(size 1 1)
@@ -2090,7 +2090,7 @@
 		(property "Value" "MountingHole_3.5mm"
 			(at 0 4.5 0)
 			(layer "F.Fab")
-			(uuid "71b916d9-c110-4e98-94ee-13d4c967cc84")
+			(uuid "3d207dc0-1e62-4470-a2cb-66e4436df685")
 			(effects
 				(font
 					(size 1 1)
@@ -2144,7 +2144,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "42368e3b-a817-4e72-9112-21b99ce2f23a")
+			(uuid "eaf1c9db-2276-4adb-b9a5-341caac79b19")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2155,12 +2155,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "d0929b04-290c-46f6-8361-064b9ded3942")
+			(uuid "b773cafe-8b6a-4d3a-9888-2ca2cb97abfd")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "0de9094c-79e7-49d3-a05f-8730725dbe7c")
+			(uuid "ccdddb72-2049-45f9-b199-eca9a0f769a0")
 			(effects
 				(font
 					(size 1 1)
@@ -2173,7 +2173,7 @@
 			(size 3.5 3.5)
 			(drill 3.5)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "40860750-5c64-4aba-ac3f-798311837297")
+			(uuid "bdbe72a1-c724-4a1b-a156-925c841f155f")
 		)
 	)
 	(footprint "1FS_2_Global_Footprint_Library:MODULE_NUCLEO-L432KC"
@@ -3037,7 +3037,7 @@
 			(at 0 -4.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "290bd901-39a2-415f-84eb-aeed9d8fedc8")
+			(uuid "3a5ceb60-2a92-46f9-abc9-d48dc9b98ce2")
 			(effects
 				(font
 					(size 1 1)
@@ -3048,7 +3048,7 @@
 		(property "Value" "MountingHole_3.5mm"
 			(at 0 4.5 0)
 			(layer "F.Fab")
-			(uuid "71b916d9-c110-4e98-94ee-13d4c967cc84")
+			(uuid "dce81604-607f-4dfc-9bac-7bf3c9ebe125")
 			(effects
 				(font
 					(size 1 1)
@@ -3102,7 +3102,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "42368e3b-a817-4e72-9112-21b99ce2f23a")
+			(uuid "62034b88-3049-4b94-b8fb-7ebdfb02e360")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3113,12 +3113,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "d0929b04-290c-46f6-8361-064b9ded3942")
+			(uuid "c45d9d0d-36af-46f2-9cec-0fb8e455c2c9")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "0de9094c-79e7-49d3-a05f-8730725dbe7c")
+			(uuid "fb4242bd-5722-4f6a-aa39-796eb72e1972")
 			(effects
 				(font
 					(size 1 1)
@@ -3131,7 +3131,7 @@
 			(size 3.5 3.5)
 			(drill 3.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "40860750-5c64-4aba-ac3f-798311837297")
+			(uuid "12116ee1-b286-476e-bff3-d7e83d45848c")
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
@@ -6278,6 +6278,19 @@
 		(at 71.755 66.929 0)
 		(layer "F.SilkS")
 		(uuid "28c8c4e3-05c4-4b64-a073-b8d7000d9299")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.09)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "100nf"
+		(at 78.6892 97.7392 0)
+		(layer "F.SilkS")
+		(uuid "4058b635-7042-47ec-8e2b-4a1613e58884")
 		(effects
 			(font
 				(size 0.5 0.5)
