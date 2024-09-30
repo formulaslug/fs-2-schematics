@@ -1,3 +1,9 @@
+#This is outdated as of Sep 2024
+
+
+
+
+
 <p align="center">
   <a href="https://github.com/formulaslug/fs-2-schematics">
     <img src="docs\FS-01-high-resolution.png" alt="Logo" width="100" height="60">
